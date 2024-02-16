@@ -8,3 +8,24 @@
     text-decoration: none;
 }
    
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background: aqua;
+    color: aliceblue;
+}
+
+.container button{
+    padding: 10px;
+    background: black;
+    color: aliceblue;
+}
