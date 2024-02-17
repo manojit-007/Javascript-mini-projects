@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+   
+body{
+    height: 100dvh;
+    width: 100dvw;
+    background: linear-gradient(-45deg,rgb(119, 0, 255),rgb(127, 214, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    position: relative;
+    width: calc(100% - 100px);
+    min-width: 300px;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 10px;
+}
+.wrapper h3{
+    text-align: center;
+    word-wrap: normal;
+    font-size: 2rem;
+}
+.wrapper hr{
+    margin-bottom: 10px;
+    width: 50%;
+    height: 0.1rem;
+    background: rgba(121, 121, 121, 0.308);
+}
+
+.wrapper .main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main div{
+    background: linear-gradient(-45deg,rgb(119, 0, 255),rgb(127, 214, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+}
+div label{
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+div input{
+    padding: 5px;
+    color: black;
+    font-weight: 600;
+}
